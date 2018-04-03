@@ -42,6 +42,7 @@ public sealed class ScriptReactor : MonoBehaviour {
         }
     }
 
+    // Main Character Position Stream
     public UniRx.Subject<UniRx.Tuple<float, float, float>> getCharacterStream() {
         return this.mainCharacterPosStream;
     }

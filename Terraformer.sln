@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terraformer.Plugins", "Terraformer.Plugins.csproj", "{ADE398B8-F8AA-4258-31C9-31A33972D5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terraformer", "Terraformer.csproj", "{F4EB95F6-BB44-4F17-45D9-72B6AE93E56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terraformer.Editor.Plugins", "Terraformer.Editor.Plugins.csproj", "{72D890BA-16CF-EC62-C5A1-E742F0BFA5E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE398B8-F8AA-4258-31C9-31A33972D5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE398B8-F8AA-4258-31C9-31A33972D5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE398B8-F8AA-4258-31C9-31A33972D5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE398B8-F8AA-4258-31C9-31A33972D5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EB95F6-BB44-4F17-45D9-72B6AE93E56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EB95F6-BB44-4F17-45D9-72B6AE93E56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EB95F6-BB44-4F17-45D9-72B6AE93E56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EB95F6-BB44-4F17-45D9-72B6AE93E56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D890BA-16CF-EC62-C5A1-E742F0BFA5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D890BA-16CF-EC62-C5A1-E742F0BFA5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D890BA-16CF-EC62-C5A1-E742F0BFA5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D890BA-16CF-EC62-C5A1-E742F0BFA5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

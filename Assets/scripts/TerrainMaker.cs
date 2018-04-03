@@ -35,9 +35,10 @@ public class TerrainMaker : MonoBehaviour, UniRx.IObserver<UniRx.Tuple<float, fl
     void Start () {
 
        mainCharacterPosStream = ScriptReactor.Instance.getCharacterStream();
-       mainCharacterPosStream.SubscribeOn(Scheduler.ThreadPool).Subscribe(this);
 
-       mainCharacterPosStream.OnNext(Tuple.Create(1.0f, 2.0f, 3.0f));
+       // observer character position @ every second
+       mainCharacterPosStream.SubscribeOn(Scheduler.ThreadPool).Sample(TimeSpan.FromSeconds(1.0)).Subscribe(this);
+       
        //////////////////////////////////////////
 
        TerrainData td = this.terrain.terrainData;

@@ -6,6 +6,9 @@ using UnityEngine;
  * This is a singleton class that allows other game object to 
  * listen to.
  *
+ * The singleton wrapper contains different streams for 
+ * bridging communication between each object. 
+ * 
  */
 
 public sealed class ScriptReactor : MonoBehaviour {
